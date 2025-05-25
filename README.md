@@ -1,6 +1,10 @@
 # RTL-MD-Example
 A small repo to demonstrate right-to-left languages MarkDown
 
+The following section header is in Hebrew, it says: this is an example of Hebrew in a Markdown document.  
+Since the first character is in Hebrew, the whole paragraph is right-to-left.
+
+Hebrew and English can appear in the same paragraph, and consecutive words in English will be rendered correctly left-to-right.
 
 
 # דוגמא לעברית במסמך Markdown
@@ -8,4 +12,27 @@ A small repo to demonstrate right-to-left languages MarkDown
 
 עברית ו-English יכולות להופיע באותה פסקה. גם מספר מילים באנגלית יופיעו בסדר הנכון word1 word2 word3.
 
+If a paragprah starts with an English (or any other left-to-right language) the paragprah will be left-to-right.  The direction can be overriden using div.
+The following:
 
+```
+<div dir="rtl">
+Java היא שפה מונחית עצמים
+</div>
+```
+
+Results in a right-to-left paragraph, despite starting with "J".
+
+<div dir="rtl">
+Java היא שפה מונחית עצמים
+</div>
+
+The paragprah translates to "Java is an object oriented language".
+
+
+
+
+
+
+
+גם C++ היא שפה מונחית עצמים

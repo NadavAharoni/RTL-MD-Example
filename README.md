@@ -16,16 +16,16 @@ If a paragprah starts with an English (or any other left-to-right language) the 
 The following:
 
 ```
-<div dir="rtl">
+<p dir="rtl">
 Java היא שפה מונחית עצמים
-</div>
+</p>
 ```
 
 Results in a right-to-left paragraph, despite starting with "J".
 
-<div dir="rtl">
+<p dir="rtl">
 Java היא שפה מונחית עצמים
-</div>
+</p>
 
 The paragprah translates to "Java is an object oriented language".
 

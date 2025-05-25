@@ -32,10 +32,13 @@ Java היא שפה מונחית עצמים
 
 The paragprah translates to "Java is an object oriented language".
 
+# דוגמא לרשימות
+1. אחד
+2. שתיים
+3. שלש
 
 
 
-
-
+# דוכמא ל-span
 
 גם C++ היא שפה מונחית עצמים

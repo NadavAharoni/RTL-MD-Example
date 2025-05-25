@@ -13,7 +13,7 @@ Hebrew and English can appear in the same paragraph, and consecutive words in En
 
 עברית ו-English יכולות להופיע באותה פסקה. גם מספר מילים באנגלית יופיעו בסדר הנכון word1 word2 word3.
 
-# Overriding "First-Char" Direction
+# Overriding Paragraph Direction
 
 If a paragprah starts with an English (or any other left-to-right language) the paragraph will be left-to-right.  The direction can be overriden using div.
 The following:

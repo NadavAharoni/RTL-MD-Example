@@ -42,3 +42,7 @@ The paragprah translates to "Java is an object oriented language".
 # דוגמא ל-span
 
 גם C++ היא שפה מונחית עצמים
+
+גם C++&lrm; היא שפה מונחית עצמים
+
+

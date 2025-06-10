@@ -56,6 +56,6 @@ It will ne rendered as follows (which is what we wanted):
 
 גם C++&lrm; היא שפה מונחית עצמים
 
-
+&rlm;C++&lrm; ו-Java הן שפות מונחית עצמים
 
 

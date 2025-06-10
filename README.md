@@ -41,8 +41,21 @@ The paragprah translates to "Java is an object oriented language".
 
 # דוגמא ל-span
 
+When writing "C++", the + characters do not have a strong direction, so they are rendered according to the enclosing paragraph, which is right-to-left, so the result looks wrong:
+
 גם C++ היא שפה מונחית עצמים
 
+One way to fix it is to add `&lrm;` after the ++.
+The raw text will be:
+
+```
 גם C++&lrm; היא שפה מונחית עצמים
+```
+
+It will ne rendered as follows (which is what we wanted):
+
+גם C++&lrm; היא שפה מונחית עצמים
+
+
 
 

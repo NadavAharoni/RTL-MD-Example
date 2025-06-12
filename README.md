@@ -1,5 +1,5 @@
 # RTL-MD-Example
-A small repo to demonstrate right-to-left languages MarkDown
+A small repo to demonstrate right-to-left languages in Markdown
 
 The following section header is in Hebrew, it says: this is an example of Hebrew in a Markdown document.  
 Since the first character is in Hebrew, the whole paragraph is right-to-left.
@@ -52,10 +52,15 @@ The raw text will be:
 גם C++&lrm; היא שפה מונחית עצמים
 ```
 
-It will ne rendered as follows (which is what we wanted):
+It will be rendered as follows (which is what we wanted):
 
 גם C++&lrm; היא שפה מונחית עצמים
 
+In the following example, the paragraph starts with the character C, but we want it to be right-to-left.
+One way to do this is to start the paragraph with `&lrm;`.
+
 &rlm;C++&lrm; ו-Java הן שפות מונחית עצמים
 
+# Links and references
+https://en.wikipedia.org/wiki/Implicit_directional_marks
 
